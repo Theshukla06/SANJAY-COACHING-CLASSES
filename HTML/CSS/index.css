@@ -406,7 +406,7 @@ hr{
         width: 150vh;
     }
     .footer {
-        width: 150vh;
+        width: 50vh;
     }
     .maincontain{
         width: 150vh;
@@ -483,6 +483,33 @@ hr{
     .contact h2 {
         margin-top: -6%;
         margin-right: 28%;
+    }
+    .contactmenu{
+        width: 69vh;
+        margin-left: -15%;
+        display: block;
+
+    }
+    .contactmenu .contactcol h2 {
+        margin-left: 18%;
+    }
+    .contactmenu .contactcol i {
+        font-size: 40px;
+        padding-bottom: 41px;
+        padding-top: 20px;
+        /* text-align: center; */
+        margin-left: 33%;
+    }
+    .coder-name h2 {
+        /* text-align: center; */
+        color: white;
+        font-size: 15px;
+        margin-left: -81%;
+    }
+    .maincontain h6 {
+        font-size: 25px;
+        margin-left: -72%;
+        margin-bottom: 10px;
     }
 }
 @media screen and (max-width: 820px){
