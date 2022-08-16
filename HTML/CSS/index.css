@@ -388,7 +388,7 @@ hr{
 
 /* MEDIA  */
 
-@media screen and (max-width: 420px){
+/* @media screen and (max-width: 420px){
     .header{
         width: 150vh;
     }
@@ -417,4 +417,4 @@ hr{
 
 @media screen and (max-width: 820px){
 
-}
+} */
