@@ -390,13 +390,14 @@ hr{
 
 @media screen and (max-width: 420px){
     .header{
-        width: 150vh;
+        /* width: 150vh; */
+        clip-path: polygon(0 0, 100% 0, 100% 100%,27% 104%,0 100%);
     }
     .services{
-        width: 150vh;
+        width: 48vh;
     }
     .work {
-        width: 150vh;
+        width: 50vh;
     }
     .toolskit {
         margin-left: -5%;
@@ -410,11 +411,69 @@ hr{
     .maincontain{
         width: 150vh;
     }
+    .aboutright h2 {
+        font-size: 14px;
+        width: 23vh;
+    }
     .aboutright h4{
-        width: 50vh;
-    } 
+        font-size: 35px;
+        margin-top: -64px;
+        margin-left: -64px
+    }
+    .aboutright p {
+        font-size: 12px;
+        margin-left: -25%;
+    }
+    .heading {
+        margin-top: -15px;
+        margin-left: -44%;
+    }
+    .services .heading h2 {
+        padding-top: 64px;
+        font-size: 26px;
+        margin-left: -32%;
+    }
+    .services .heading p {
+        margin-left: -25%;
+        font-size: 8px;
+    }
+    .aboutright p1 {
+        font-size: 18px;
+        margin-left: -22%;
+    }
+    .tools{
+        margin: 2px -96px;
+    }
+    .container ul li {
+        margin-top: 8%;
+        padding: 11px 10px;  
+        /* margin-left: -24%; */
+    }
+    .logo img {
+        margin-left: 86%;
+    }
+    .heading h1 {
+        margin-top: -48px;
+        margin-left: -49%;
+        font-size: 40px;
+    }
+    .banner img {
+        margin-top: -102px;
+        margin-left: 94px;
+    }
+    .heading p {
+        font-size: 21px;
+        margin-top: 180px;
+        margin-right: -1px;
+        margin-bottom: -65px;
+    }
+    .img{
+        font-size: 10%;
+    }
+    .maincontain h2 {
+        margin-left: -70%;
+    }
 }
-
 @media screen and (max-width: 820px){
 
 }
